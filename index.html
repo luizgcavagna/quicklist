@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>quicklist</title>
+
+  <link rel="stylesheet" href="styles/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <header>
+      <img src="assets/logo.svg" alt="Logo">
+      <div>
+        <a href="#">
+          <img src="assets/icons/link.svg" alt="Voltar">
+          Voltar
+        </a>
+      </div>
+    </header>
+    
+    <section class="form">
+      <h1>Compras da semana</h1>
+      <form>
+        <input type="text" name="new-item" id="new-item">
+        <button type="submit" id="send">Adicionar item</button>
+      </form>
+    </section>
+
+    <section class="list">
+      <ul>
+        <li>
+          <input type="checkbox" name="list">
+          <span>Pão de forma</span>
+          <button>
+            <img src="assets/icons/trash.svg" alt="Deletar">
+          </button>
+        </li>
+        <li>
+          <input type="checkbox" name="list">
+          <span>Café preto</span>
+          <button>
+            <img src="assets/icons/trash.svg" alt="Deletar">
+          </button>
+        </li>
+        <li>
+          <input type="checkbox" name="list">
+          <span>Suco de laranja</span>
+          <button>
+            <img src="assets/icons/trash.svg" alt="Deletar">
+          </button>
+        </li>
+        <li>
+          <input type="checkbox" name="list">
+          <span>Bolacha</span>
+          <button>
+            <img src="assets/icons/trash.svg" alt="Deletar">
+          </button>
+        </li>
+      </ul>
+      <div id="alert">
+        <img src="assets/icons/warning-circle-filled.svg" alt="">
+        <span>O item foi removido da lista</span>
+        <img src="assets/icons/delete-small.svg" alt="">
+      </div>
+    </section>
+    
+  </main>
+</body>
+</html>
