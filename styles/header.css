@@ -1,0 +1,19 @@
+header {
+  & > img {
+    display: none;
+    margin: 0 auto 3.875rem;
+  }
+
+  & a {
+    text-decoration: none;
+    color: var(--color-brand);
+    font: var(--link);
+    margin-bottom: 1rem;
+  }
+
+  @media ( width >= 630px) {
+    & > img {
+      display: block;
+    }
+  }
+}
