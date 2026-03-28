@@ -1,10 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/* :root {
+:root {
   --background-primary: #F4F5FB;
   --background-secondary: #FFFFFF;
 
@@ -26,22 +20,4 @@
   --paragraph: 500 1rem/1.25rem var(--font-family); 
   --link: 500 0.875rem/1rem var(--font-family);
 
-} */
-
-html {
-  font-family: var(--font-family);
-  background-color: var(--background-primary);
-}
-
-main {
-  padding: 2rem;
-  width: 100%;
-}
-
-@media ( width >= 630px) {
-  main {
-    padding: 1.5625rem 0 0;
-    width: 39.1875rem;
-    margin-inline: auto;
-  }
 }
