@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* :root {
+:root {
   --background-primary: #F4F5FB;
   --background-secondary: #FFFFFF;
 
@@ -26,7 +26,7 @@
   --paragraph: 500 1rem/1.25rem var(--font-family); 
   --link: 500 0.875rem/1rem var(--font-family);
 
-} */
+}
 
 html {
   font-family: var(--font-family);

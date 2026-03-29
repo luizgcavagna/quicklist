@@ -1,4 +1,6 @@
 header {
+  margin-bottom: 1rem;
+
   & > img {
     display: none;
     margin: 0 auto 3.875rem;
