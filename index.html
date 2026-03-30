@@ -33,48 +33,50 @@
 
     <section class="list">
       <ul>
-        <li>
+        <li id="li-0">
           <div class="checkbox-image"></div>
-          <input type="checkbox" name="list">
+          <input type="checkbox" name="list" onclick="crossOutText('li-0')">
           <span>Pão de forma</span>
-          <button>
+          <button onclick="removeLi('li-0')">
             <img src="assets/icons/trash.svg" alt="Deletar">
           </button>
         </li>
-        <li>
+        <li id="li-1">
           <div class="checkbox-image"></div>
-          <input type="checkbox" name="list">
+          <input type="checkbox" name="list" onclick="crossOutText('li-1')">
           <span>Café preto</span>
-          <button>
+          <button onclick="removeLi('li-1')">
             <img src="assets/icons/trash.svg" alt="Deletar">
           </button>
         </li>
-        <li>
+        <li id="li-2">
           <div class="checkbox-image"></div>
-          <input type="checkbox" name="list">
+          <input type="checkbox" name="list" onclick="crossOutText('li-2')">
           <span>Suco de laranja</span>
-          <button>
+          <button onclick="removeLi('li-2')">
             <img src="assets/icons/trash.svg" alt="Deletar">
           </button>
         </li>
-        <li>
+        <li id="li-3">
           <div class="checkbox-image"></div>
-          <input type="checkbox" name="list">
+          <input type="checkbox" name="list" onclick="crossOutText('li-3')">
           <span>Bolacha</span>
-          <button>
+          <button onclick="removeLi('li-3')">
             <img src="assets/icons/trash.svg" alt="Deletar">
           </button>
         </li>
       </ul>
-      <div id="alert">
+      <div id="alert" class="none">
         <img src="assets/icons/warning-circle-filled.svg" alt="">
         <span>O item foi removido da lista</span>
-        <button>
+        <button onclick="closeDiv()">
           <img src="assets/icons/delete-small.svg" alt="">
         </button>
       </div>
     </section>
     
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
